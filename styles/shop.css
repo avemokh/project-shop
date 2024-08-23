@@ -1,0 +1,188 @@
+.shop {
+    display: flex;
+    gap: 50px;
+}
+
+.shop .sidebar {
+    max-width: 244px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.shop .sidebar .search {
+    position: relative;
+}
+
+.shop .sidebar .search img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.shop .sidebar .search .search-row {
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.shop .sidebar .search .search-row::placeholder {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    color: rgba(68, 68, 68, 0.5)
+}
+
+.shop .sidebar .sidebar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.shop .sidebar .sidebar-item .sidebar-title {
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.shop .sidebar .sidebar-item .sidebar-content .categories-list {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: rgba(68, 68, 68, 1);
+    list-style: none;
+}
+
+.shop .sidebar .sidebar-item .sidebar-content .categories-list .category {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.shop .sidebar .sidebar-item .sidebar-content .categories-list .category::before {
+    content: " ";
+    background-image: url(../icons/square.svg);
+    width: 5px;
+    height: 5px;
+    display: block;
+    transition: 200ms;
+}
+
+.shop .sidebar .sidebar-item .sidebar-content .categories-list .category:hover::before {
+    content: " ";
+    background-image: url(../icons/small-row.svg);
+    display: block;
+    width: 25px;
+    height: 3px;
+    transition: 200ms;
+}
+
+.shop .sidebar .sidebar-item .sidebar-content .categories-list .category:hover {
+    color: rgba(255, 142, 142, 1);
+}
+
+.shop .sidebar .sidebar-item .sidebar-content .price-bar {
+    display: flex;
+    gap: 15px;
+}
+
+.shop .sidebar .sidebar-item .sidebar-content .colors {
+
+}
+
+.shop .products-wrapper {
+    max-width: 846px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.shop .products-wrapper .sort-and-count {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+}
+
+.shop .products-wrapper .sort-and-count .sort select {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+    border: none;
+    outline: none;    
+}
+
+.shop .products-wrapper .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 30px;
+}
+
+.shop .products-wrapper .products .product {
+    width: 100%;
+    max-width: 262px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.shop .products-wrapper .products .product .photo {
+    height: 360px;
+    background: #F1F2F3;
+    position: relative;
+}
+
+.shop .products-wrapper .products .product .photo .top-bar {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 222px;
+}
+
+.shop .products-wrapper .products .product .photo .top-bar .labels {
+    display: flex;
+    gap: 15px;
+}
+
+.shop .products-wrapper .products .product .info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.shop .products-wrapper .products .product .info .price {
+    display: flex;
+    gap: 16px;
+}
+
+.shop .products-wrapper .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.shop .products-wrapper .pagination .pages {
+    display: flex;
+    gap: 20px;
+}

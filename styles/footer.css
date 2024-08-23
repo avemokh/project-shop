@@ -1,0 +1,152 @@
+/* .footer {
+
+} */
+
+.footer .footer-info {
+    display: flex;
+    color: #444444;
+    /* gap: 60px; */
+}
+
+.footer .footer-info a {
+    text-decoration: none;
+    color: #444444;
+}
+
+.footer .footer-info .column {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+
+}
+
+.footer .footer-info .column.column-2,
+.footer .footer-info .column.column-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .footer-info .column.column-2 .title,
+.footer .footer-info .column.column-3 .title,
+.footer .footer-info .column.column-4 .title {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#000000;
+}
+
+.footer .footer-info .column.column-2 .links,
+.footer .footer-info .column.column-3 .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* list-style-position: inside; */
+}
+
+.footer .footer-info .column.column-2 {
+    max-width: 88px;
+    width: 100%;
+    margin-left: 60px;
+} 
+
+.footer .footer-info .column.column-3 {
+    margin-left: 108px;
+    max-width: 119px;
+    width: 100%;
+}
+
+.footer .footer-info .column.column-4 {
+    margin-left: 74px;
+    max-width: 361px;
+}
+
+.footer .footer-info .column.column-4 .newsletter-text {
+    margin-top: 16px;
+}
+
+.footer .footer-info .column.column-4 .newsletter-form {
+    margin-top: 36px;
+    position: relative;
+}
+
+.footer .footer-info .column.column-4 .newsletter-form img {
+    position: absolute;
+    right: 0;
+}
+
+.footer .footer-info .column.column-4 .newsletter-form input {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.2);
+    padding-bottom: 16px;
+    outline: none;
+}
+
+.footer .footer-info .column.column-4 .newsletter-form input::placeholder {
+    color: rgba(68, 68, 68, 0.5);
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+}
+
+.footer .footer-info .column .about-brand {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.2);
+}
+
+.footer .footer-info .column .find-us {
+    margin-top: 35px;
+}
+
+.footer .footer-info .column .find-us .find-us-links {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer .footer-info .column .find-us .find-us-links .line {
+    height: 1px;
+    background-color: #444444;
+    width: 10px;
+}
+
+.footer .footer-info .column.column-1 {
+    max-width: 331px;
+}
+
+.footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border-top: 1px solid rgba(68, 68, 68, 0.2);
+    padding: 23px 0;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    color: #444444;
+    margin-top: 90px;
+}
+
+.footer .copyright .payment-methods-container {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+.footer .copyright .payment-methods-container .payment-methods {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer .copyright .payment-methods-container .payment-methods .payment-method {
+    display: flex;
+    align-items: center;
+}

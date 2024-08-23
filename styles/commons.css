@@ -1,0 +1,13 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .input {
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.2);
+    width: 100%;
+    outline: none;
+    padding-bottom: 15px;
+}
