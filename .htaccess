@@ -1,1 +1,2 @@
-DirectoryIndex shop.html
+RewriteEngine On
+RewriteRule ^$ /shop.html [L]
