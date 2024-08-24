@@ -1,0 +1,63 @@
+.billboard {
+    margin: 50px auto 200px;
+    display: flex;
+    gap: 150px;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.billboard .banner {
+    background-color: #F1F2F3;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+}
+
+.billboard .card {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+    margin-top: 32px;
+}
+
+.billboard .card .info {
+    margin: 111px 0 0 390px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.billboard .card .row-line {
+    height: 2px;
+    background-color: black;
+}
+
+.billboard .card .title {
+    font-family: Josefin Sans;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.billboard .card .squares .big-square {
+    position: absolute;
+    left: 60px;
+}
+    
+
+.billboard .card .navigation {
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    border-left: 1.5px solid black;
+    padding-left: 12px
+}
+
+.billboard .card .navigation .active {
+    color: #FF8E8E;
+}

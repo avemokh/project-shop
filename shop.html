@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./styles/shop.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/newsletter.css">
+    <link rel="stylesheet" href="./styles/billboard.css">
 
 </head>
 
@@ -71,9 +73,24 @@
             </div>
         </div>
     </header>
+    <section class="billboard">
+        <div class="card">
+            <div class="squares">
+                <img src="./images/bigSquare.svg" alt="" class="big-square">
+            </div>
+            <div class="info">
+                <div class="title">Shop</div>
+                <div class="navigation">
+                    <div>Home</div>
+                    <div class="active">Shop</div>
+                </div>
+            </div>
+            <div class="row-line"></div>
+        </div>
+        <div class="banner"></div>
+    </section>
 
-    <br><br><br><br><br>
-    <div class="container">
+    <main class="container">
         <div class="shop">
             <div class="sidebar">
                 <div class="search">
@@ -450,11 +467,33 @@
                 </div>
             </div>
         </div>
-    </div>
-    <br><br><br><br><br>
+    </main>
+    <section class="newsletter">
+        <div class="container newsletter">
+            <div class="newsletter-card">
+                <div class="squares">
+                    <img class="small-square" src="./images/smallSquare.svg" alt="">
+                </div>
+                <div class="newsletter-title">Newsletter</div>
+                <div class="newsletter-info">Be the first to hear about deals,  offers and upcoming collections.</div>
+                <form class="newsletter-subscription">
+                    <input class="input" type="email" placeholder="Enter your email">
+                    <div class="button-wrapper">
+                        <button class="button">Subscribe</button>
+                        <div class="vertical-line"></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
     <footer class="footer">
         <div class="breakout-line"></div>
         <div class="container">
+            <div class="squares">
+                <img class="small-square" src="./images/smallSquare.svg" alt="">
+                <img src="./images/mediumSquare.svg" alt="" class="medium-square">
+            </div>
             <div class="footer-info">
                 <div class="column column-1">
                     <div class="logo">
@@ -512,7 +551,7 @@
                         Subscribe to be the first to hear about deals,  offers and upcoming collections.
                     </div>
                     <div class="newsletter-form">
-                        <form action="">
+                        <form>
                             <label>
                                 <input class="input" type="email" placeholder="Enter your email">
                                 <img src="./icons/send.svg" alt="Send">

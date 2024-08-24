@@ -1,0 +1,55 @@
+.container.newsletter {
+    margin: 200px auto 120px;
+    width: 100%;
+    max-width: 1680px;
+    background-color: #F1F2F3;
+    padding: 0px 781px 162px 275px;
+}
+
+.container.newsletter .newsletter-card {
+    position: relative;
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container.newsletter .squares .small-square {
+    position: absolute;
+    z-index: 1;
+    right: 30px;
+    top: -33px;
+}
+
+.container.newsletter .newsletter-card .newsletter-title {
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+.container.newsletter .newsletter-card .newsletter-info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+}
+
+.container.newsletter .newsletter-card .newsletter-subscription {
+    display: flex;
+    margin-top: 25px;
+    gap: 30px;
+}
+
+.container.newsletter .newsletter-card .newsletter-subscription .input {
+    width: 100%;
+    max-width: 334px;
+}
+
+.container.newsletter .newsletter-card .newsletter-subscription .button-wrapper {
+    max-width: 140px;
+}
+
+.container.newsletter .newsletter-card .newsletter-subscription .button-wrapper .button {
+    padding: 17px 30px;
+}
