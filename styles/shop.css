@@ -27,7 +27,6 @@
 }
 
 .shop .sidebar .search .search-row::placeholder {
-    font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
     line-height: 23.8px;
@@ -54,10 +53,6 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27.2px;
     color: rgba(68, 68, 68, 1);
     list-style: none;
 }
@@ -67,6 +62,9 @@
     align-items: center;
     gap: 12px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
 }
 
 .shop .sidebar .sidebar-item .sidebar-content .categories-list .category::before {
@@ -116,7 +114,6 @@
     display: flex;
     align-items: center;
     user-select: none;
-    font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
     line-height: 23.8px;
@@ -204,20 +201,18 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
     line-height: 27.2px;
 }
 
-.shop .products-wrapper .sort-and-count .sort select {
-    font-family: Raleway;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 23.8px;
-    text-align: left;
-    border: none;
-    outline: none;    
+.shop .products-wrapper .sort-and-count .bold {
+    font-weight: 600;
+}
+
+.shop .products-wrapper .sort-and-count .sort {
+    max-width: 262px;
+    width: 100%;
 }
 
 .shop .products-wrapper .products {
@@ -247,12 +242,25 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 222px;
+    max-width: 222px; 
 }
 
 .shop .products-wrapper .products .product .photo .top-bar .labels {
     display: flex;
     gap: 15px;
+}
+
+.shop .products-wrapper .products .product .photo .top-bar .labels .label {
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgba(255, 142, 142, 1);
+    text-transform: uppercase;
+}
+
+.shop .products-wrapper .products .product .photo .top-bar .labels .label.new {
+    background-color: rgba(149, 204, 181, 1);
 }
 
 .shop .products-wrapper .products .product .info {
@@ -261,10 +269,33 @@
     gap: 9px;
 }
 
-.shop .products-wrapper .products .product .info .price {
+.shop .products-wrapper .products .product .info .name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+}
+
+.shop .products-wrapper .products .product .info .prices {
     display: flex;
     gap: 16px;
+    align-items: center;
+    font-family: "Josefin Sans";
 }
+
+.shop .products-wrapper .products .product .info .prices .price {
+    /* font-family: Josefin Sans; */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.shop .products-wrapper .products .product .info .prices .price.old {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-decoration: line-through;
+}
+
 
 .shop .products-wrapper .pagination {
     display: flex;
