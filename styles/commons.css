@@ -14,6 +14,9 @@
     width: 100%;
     outline: none;
     padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .container .button-wrapper {
@@ -28,17 +31,65 @@
 .container .button-wrapper .button {
     border: none;
     background-color: black;
-    font-family: Raleway;
     font-size: 16px;
     font-weight: 600;
     line-height: 16px;
     text-align: center;
     color: white;
     padding: 17px 74.5px;
+    cursor: pointer;
 }
 
 .container .button-wrapper .vertical-line {
     width: 2px;
     height: 100%;
     background-color: black;
+} 
+
+.container .prices {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.container .prices .price {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.container .prices .price.old {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-decoration: line-through;
+    color: rgba(68, 68, 68, 1);
+}
+
+.container .custom-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: rgba(68, 68, 68, 1);
+    list-style: none;
+}
+
+.container .custom-list .item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+}
+
+.container .custom-list .item::before {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    display: block;
+    transition: 200ms;
+    background-color: rgba(68, 68, 68, 1);
 }
