@@ -1,6 +1,12 @@
-/* .footer {
+.footer .breakout-line {
+    width: 100%;
+    height: 20px;
+    background-color: #eeeeee;
+}
 
-} */
+.footer .container {
+    margin-top: 110px;
+}
 
 .footer .footer-info {
     display: flex;
