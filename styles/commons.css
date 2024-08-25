@@ -38,6 +38,8 @@
     color: white;
     padding: 17px 74.5px;
     cursor: pointer;
+    width: 100%;
+    text-align: center;
 }
 
 .container .button-wrapper .vertical-line {
@@ -92,4 +94,39 @@
     display: block;
     transition: 200ms;
     background-color: rgba(68, 68, 68, 1);
+}
+
+.container .find-us {
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+
+}
+
+.container .find-us .find-us-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+}
+
+.container .find-us .find-us-links {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .find-us .find-us-links .find-us-link a{
+    text-decoration: none;
+    color: #444444;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.09px;
+}
+
+.container .find-us .find-us-links .line {
+    height: 1px;
+    background-color: #444444;
+    width: 10px;
 }

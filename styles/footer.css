@@ -116,35 +116,6 @@
     border-bottom: 1px solid rgba(68, 68, 68, 0.2);
 }
 
-.footer .footer-info .column .find-us {
-    margin-top: 35px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 27.2px;
-
-}
-
-.footer .footer-info .column .find-us .find-us-links {
-    display: flex;
-    margin-top: 20px;
-    gap: 15px;
-    align-items: center;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 14.09px;
-}
-
-.footer .footer-info .column .find-us .find-us-links .find-us-link a{
-    text-decoration: none;
-    color: #444444;
-}
-
-.footer .footer-info .column .find-us .find-us-links .line {
-    height: 1px;
-    background-color: #444444;
-    width: 10px;
-}
-
 .footer .footer-info .column.column-1 {
     max-width: 331px;
     margin-left: 0px;
