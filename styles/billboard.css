@@ -4,6 +4,8 @@
     gap: 150px;
     max-width: 1920px;
     width: 100%;
+    align-items: center;
+    position: relative;
 }
 
 .billboard .banner {
@@ -19,20 +21,29 @@
     display: flex;
     gap: 20px;
     flex-direction: column;
-    position: relative;
     margin-top: 32px;
+    align-items: center;
+}
+
+.billboard .squares {
+    z-index: -1;
+    position: absolute;
+    left: 60px;
+    top: 32px;
 }
 
 .billboard .card .info {
-    margin: 111px 0 0 390px;
     display: flex;
     gap: 20px;
     flex-direction: column;
+    margin-left: 112px;
 }
 
 .billboard .card .row-line {
     height: 2px;
     background-color: black;
+    width: 100%;
+    max-width: 850px;
 }
 
 .billboard .card .title {
@@ -42,10 +53,11 @@
     line-height: 80px;
 }
 
-.billboard .card .squares .big-square {
+/* .billboard .squares .big-square {
     position: absolute;
     left: 60px;
-}
+    top: 32px;
+} */
     
 
 .billboard .card .navigation {
@@ -58,6 +70,16 @@
     padding-left: 12px
 }
 
-.billboard .card .navigation .active {
+.billboard .card .navigation .link {
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.billboard .card .navigation .link.active {
     color: #FF8E8E;
+}
+
+.billboard .card .navigation .link:hover {
+    color: #FF8E8E;
+    transition: 200ms;
 }

@@ -60,12 +60,14 @@
     gap: 15px;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
 }
 
 .cart .order-wrapper .product-list .product .product-info .price-wrapper .price-and-quantity {
     display: flex;
     align-items: center;
     gap: 48px;
+    position: relative;
 }
 
 .cart .order-wrapper .product-list .product .product-info .price-wrapper .price-and-quantity .quantity {
@@ -73,6 +75,8 @@
     display: flex;
     gap: 20px;
     padding: 17px 23px;
+    position: absolute;
+    left: 150px;
 }
 
 .cart .order-wrapper .product-list .product .product-info .price-wrapper .price-and-quantity .quantity .count-button {
@@ -201,7 +205,12 @@
 }
 
 .cart .promo-code-wrapper .promo-code .button-wrapper .button {
-    padding: 17px 15px;
+    padding: 17px 14px;
+}
+
+.cart .promo-code-wrapper .promo-code .button-wrapper .vertical-line,
+.container .button-wrapper .vertical-line {
+    height: 50px;
 }
 
 .cart .promo-code-wrapper .info {
