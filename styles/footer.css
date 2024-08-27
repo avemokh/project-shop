@@ -150,3 +150,49 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 1200px) {
+
+    .footer .footer-info {
+        justify-content: space-around;
+    }
+
+    .footer .footer-info .column.column-2, 
+    .footer .footer-info .column.column-3,
+    .footer .footer-info .column.column-4 {
+        margin-left: 0px;
+    }
+
+    .footer .copyright {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .footer .footer-info .column.column-4 {
+        display: none;
+    }
+
+    .footer .squares .medium-square {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer .copyright {
+        font-size: 10px;
+    }
+
+    .footer .footer-info {
+        gap: 100px 50px;
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-info .column.column-1 {
+        order: 1;
+        max-width: 450px;
+    }
+
+}

@@ -147,3 +147,33 @@ justify-content: space-between;
     }
 
 }
+
+@media screen and (max-width: 1024px) {
+    
+    .header {
+        margin-top: 25px;
+    }
+
+    .header .left-side {
+        gap: 40px;
+    }
+
+    .header .left-side .menu {
+        gap: 20px;
+    }
+
+    .header .right-side {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header .left-side .menu {
+        display: none; /* Так как это меню можно впихнуть селекцией в бургер меню слева */
+    }
+
+    .header {
+        margin-top: 10px;
+    }
+}

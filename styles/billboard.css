@@ -83,3 +83,58 @@
     color: #FF8E8E;
     transition: 200ms;
 }
+
+@media screen and (max-width: 1200px) {
+    .billboard {
+        margin: 30px auto;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .billboard .card {
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .billboard .banner {
+        max-width: 600px;
+        height: 300px;
+    }
+
+    .billboard .squares .big-square {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .billboard .banner {
+        max-width: 400px;
+        height: 200px;
+    }
+
+    .billboard .squares .big-square {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .billboard .banner {
+        width: 300px;
+        height: 150px;
+    }
+
+    .billboard .card .title {
+        font-size: 50px;
+        line-height: 36px;
+    }
+
+    .billboard .squares .big-square {
+        width: 150px;
+    }
+
+}

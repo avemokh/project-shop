@@ -55,3 +55,11 @@
 .container-newsletter .newsletter-card .newsletter-subscription .button-wrapper .button {
     padding: 17px 30px;
 }
+
+@media screen and (max-width: 1200px) {
+    .newsletter {
+        margin: 70px auto 0;
+        height: 300px;
+    }
+}
+
