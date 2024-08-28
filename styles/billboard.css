@@ -124,8 +124,7 @@
 @media screen and (max-width: 768px) {
 
     .billboard .banner {
-        width: 300px;
-        height: 150px;
+        display: none;
     }
 
     .billboard .card .title {
